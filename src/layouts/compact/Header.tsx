@@ -46,7 +46,7 @@ export default function Header({ isOffset }: Props) {
                 <Link
                     variant="subtitle2"
                     color="inherit"
-                    href="mailto:crisral@gmail.com"
+                    href="mailto:crisprals.yachay@gmail.com"
                 >
                     Need Help?
                 </Link>

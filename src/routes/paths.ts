@@ -7,16 +7,20 @@ function path(root: string, sublink: string) {
 const ROOTS_AUTH = '/auth'
 const ROOTS_DASHBOARD = '/dashboard'
 
+
 export const PATH_AUTH = {
     root: ROOTS_AUTH,
     login: path(ROOTS_AUTH, '/login'),
 }
+
 
 export const PATH_PAGE = {
     home: '/#',
     about: '/#about-us',
     contact: '/#contact-us',
     aboutSystem: '/#about-system',
+    termsConditions: '/terms_and_conditions',
+    privacyPolicy: '/privacy',
 }
 
 export const PATH_EXTERNAL = {

@@ -20,6 +20,10 @@ import { _socials } from '../../_mock/arrays'
 import Logo from '../../components/logo'
 import Iconify from '../../components/iconify'
 import { useLocales } from '../../locales'
+import terms_anconditions from '../../pages/terms_and_conditions'
+import privacy from '../../pages/privacy'
+import { Padding } from '@mui/icons-material'
+
 
 // ----------------------------------------------------------------------
 
@@ -38,11 +42,18 @@ const LINKS = [
     {
         headline: 'Contact',
         children: [
-            { name: 'crisral@gmail.com', href: 'mailto:crisral@gmail.com' },
+            { name: 'crisprals.yachay@gmail.com', href: 'mailto:crisprals.yachay@gmail.com' },
             {
                 name: 'Hacienda San José, Urcuqui, Ecuador',
                 href: '#contact-us',
             },
+        ],
+    },
+    {
+        headline: 'Legal',
+        children: [
+            { name: 'Terms and Conditions', href: PATH_PAGE.termsConditions},
+            { name: 'Privacy policy', href: PATH_PAGE.privacyPolicy},
         ],
     },
 ]
