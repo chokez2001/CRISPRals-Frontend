@@ -49,10 +49,11 @@ export default function UploadFasta() {
     const [fastaSpacersResponse, setfastaSpacersResponse] = useState<string[]>([])
     const [possiblePhages, setpossiblePhages] = useState<object[]>([])
     const [selectedAnalysis, setSelectedAnalysis] = useState('')
+    
+    // 'Sequevar determination',
+    // 'Phylotype determination',
     const analysisOptions = [
-        'Sequevar determination',
-        'Phylotype determination',
-        'CRISPRidentify analysis',
+        'CRISPRidentify analysis'
     ]
     const [laboratoryAnalysis, { data, loading, error }] =
         useLazyLaboratoryAnalysis(true)
